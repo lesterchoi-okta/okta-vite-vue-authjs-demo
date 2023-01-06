@@ -1,0 +1,6 @@
+# Lockfile-related configuration
+[install.lockfile]
+
+# Print a yarn v1 lockfile
+# Note: it does not load the lockfile, it just converts bun.lockb into a yarn.lock
+print = "yarn"
