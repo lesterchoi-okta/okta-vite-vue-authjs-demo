@@ -35,7 +35,7 @@ export default defineConfig({
           cert: readFileSync(resolve(PROJECT_ROOT, '.https', 'localhost-cert.pem')),
         };
       } catch (err) {
-        throw new Error('Generate certs to enable https by running scripts/gen-certs');
+        throw new Error('Generate certs to enable https by running ./scripts/gen-certs.sh');
       }
     })(),
   },
