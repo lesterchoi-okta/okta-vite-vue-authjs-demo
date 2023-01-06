@@ -1,4 +1,4 @@
-/* eslint-env node, mocha */
+/* eslint-env node */
 import { defineConfig } from 'vite'
 import vue from '@vitejs/plugin-vue'
 import { readFileSync } from 'fs';
